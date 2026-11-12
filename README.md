@@ -28,15 +28,6 @@ O resultado final e um video fluido em formato vertical, pronto para consumo em 
 
 - **Arquivo de video local:** [`ia_generativa.mp4`](./ia_generativa.mp4)
 
-Para reproduzir o video diretamente via terminal no Linux Mint:
-
-```bash
-# Execucao com mpv ou ffplay
-mpv ia_generativa.mp4
-# ou
-ffplay -autoexit ia_generativa.mp4
-```
-
 ## Decisoes tecnicas e Aprendizados
 
 - **Encadeamento de pipelines de IA (Multimodalidade):** A criacao do artefato final exigiu a combinacao sequencial de tres modalidades distintas de inteligencia artificial (texto, imagem e audio/video), demonstrando a viabilidade de esteiras automatizadas de geracao de conteudo.
